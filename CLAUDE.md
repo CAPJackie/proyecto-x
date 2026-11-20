@@ -8,8 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 npm run dev     # http://localhost:3001
-npm run validate  # lint + typecheck + build — final check
-npm run format    # prettier (the edit hook already formats touched files)
+npm run validate  # lint + typecheck + build — runs automatically on git push (husky)
 ```
 
 Copy `.env.local.example` to `.env.local` and fill in `GROQ_API_KEY` before starting.
