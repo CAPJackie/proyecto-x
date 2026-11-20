@@ -34,9 +34,13 @@
     "eslint-config-next": "16.2.4",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
+    "lint-staged": "^17.6.1",
     "prettier": "^3.10.1",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
   }
 }
